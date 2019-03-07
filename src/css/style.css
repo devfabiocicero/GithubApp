@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  float: left;
+  padding: 30px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repos-info li {
+  padding: 5px;
+}
+
+.actions,
+.repos,
+.starred {
+  float: left;
+  width: 100%;
+}
+
+.repos li,
+.starred li {
+  padding: 10px 0;
+}
+
+.repos li + li,
+.starred li + li {
+  border-top: 1px solid #ccc;
+}
